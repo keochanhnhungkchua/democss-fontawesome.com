@@ -1,0 +1,41 @@
+/*style for body*/
+
+.body-3{
+	padding: 10 40px;
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 50px;
+}
+.body-3 .body-3-1{
+ width: 35%;
+ color: #777;
+ text-align: left;
+
+}
+.body-3 .body-3-2{
+ width: 60%;
+}
+table {
+  border-collapse: collapse;
+}
+ td {
+  padding: 20px;
+  border-right: 1px solid #bdf2eb;
+}
+/*https://www.w3schools.com/cssref/sel_nth-last-child.asp
+https://www.w3schools.com/css/css_table.asp*/
+td:nth-last-child(1) {
+border-right: none;
+} 
+tr{
+border-bottom: 1px solid #bdf2eb;
+}
+tr:nth-last-child(1) {
+border-bottom: none;
+} 
+.body-3b .body-3-1{
+order: 1;
+}
+.body-3-2b td{
+	background-color: #DDD;
+}

@@ -1,0 +1,80 @@
+
+/*style for body-2*/
+/*https://cssgradient.io/*/
+.body-2{
+    display: flex;
+    margin: 20px 0px;
+}
+
+.left{
+background: rgb(52,58,64);
+background: linear-gradient(108deg, rgba(52,58,64,1) 0%, rgba(52,58,64,1) 75%, rgba(255,255,255,0) 75%, rgba(255,255,255,0) 100%);
+width: 50%;
+padding: 30px 50px;
+text-align: left;
+color: white;
+font-size: 1.1rem;
+
+}
+.left .left-a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 10px 50px;
+    border: 2px solid #0b69ba;
+    background-color: #0579dd;
+}
+.left .left-button{
+margin-top: 40px;
+}
+.left-button > button{
+    margin-right: 20px;
+    border-radius: 100%;
+    padding: 6px;
+    border-width: .25rem;
+}
+.left-button-1{
+background: linear-gradient(-45deg, #ced4da 0%, #ced4da 50%, #212529 50%, #212529 100%);
+}
+.left-button-2{
+    border-color: black;
+  background: linear-gradient(-45deg, #adb5bd 0%, #adb5bd 50%, #fff 50%, #fff 100%);  
+}
+.left-button-3{
+ background: linear-gradient(-45deg, #74c0fc 0%, #74c0fc 50%, #228be6 50%, #228be6 100%);   
+}
+.left-button-4{
+ background: linear-gradient(-45deg, #ffd43b 0%, #ffd43b 50%, #e64980 50%, #e64980 100%);
+}
+.left-button-5{
+    background: linear-gradient(-45deg, #212529 0%, #212529 50%, #2f9e44 50%, #2f9e44 100%);
+}
+
+
+.right{
+/*background: rgb(255,255,255);
+background: linear-gradient(108deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 24%, rgba(0,212,255,1) 24%, rgba(0,212,255,1) 100%);*/
+width: 50%;
+height: 405px;
+text-align: center;
+display: flex;
+}
+
+
+.right-1 >a{
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    margin: 30px;
+    text-align: left;
+}
+.right-2{
+    background-color: #DDD;
+}
+.right-2 >a{
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    margin: 30px;
+    text-align: left;
+}

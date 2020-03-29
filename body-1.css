@@ -1,0 +1,39 @@
+/*style for body*/
+.body-1{
+	padding: 0 40px;
+	display: flex;
+	justify-content: space-around;
+	margin: 20px 0px;
+	background-color: #f8f9fac4;
+
+}
+.body-1 i{
+	margin: 0 40px;
+	color: red;
+}
+.body-1 a{
+	color: #0b7285;
+}
+.body-1-1{
+ width: 45%;
+ background-color: #fff;
+ border: 2px solid #e2e6ea;
+ padding-bottom: 15px;
+}
+.body-1-1-1{
+	padding: 10px 10px;
+	background-color:#12b886;
+}
+
+
+.body-1-2{
+width: 45%;
+background-color: #fff;
+border: 2px solid #e2e6ea;
+ padding-bottom: 15px;
+}
+.body-1-1-2{
+padding: 10px 10px;
+background-color:#0b7285;
+}
+

@@ -1,0 +1,35 @@
+a{
+
+	text-decoration: none;
+}
+.footer{
+	display: flex;
+	justify-content: space-around;
+	background-color: #444;
+	color: white;
+	font-size: 15px;
+	padding: 15px 0px;
+	margin-top: 10px;
+}
+.footer a{
+	display: block;
+	color: white;
+	padding: 5px;s
+}
+.footer h2 {
+	color: #DDD;
+}
+.footer-2{
+	background-color: #333;
+	display: flex;
+	color: #555;
+	padding: 30px;
+}
+.footer-2 a{
+	color: #555;
+}
+.footer-2b{
+	text-align: right;
+	position: relative;
+	right: -380px;
+}
